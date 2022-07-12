@@ -87,7 +87,7 @@ while True:
             print("""It's even! Try again!! :|""")
     else:
         print("you cheat!!")
-    ans=input("Do you want to play again? Type 'y' or 'n' here: \n").lower
+    ans=input("Do you want to play again? Type 'y' or 'n' here: \n").lower()
     if ans=='y':
         os.system('cls')
         continue
